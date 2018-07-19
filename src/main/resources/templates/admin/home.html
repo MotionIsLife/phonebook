@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Admin Page</title>
+</head>
+
+<body>
+	<div class="container">
+	
+		<form th:action="@{/logout}" method="get">
+			<button name="registration" type="Submit">Logout</button>
+		</form>    
+		
+		<div>
+			<div>
+				<div>
+					<span th:utext="${userName}"></span>
+				</div>
+				<p th:utext="${adminMessage}"></p>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

@@ -23,7 +23,7 @@ public class WebBootApp extends SpringBootServletInitializer {
 
   @Bean
   public EmbeddedServletContainerFactory servletContainerFactory() {
-    TomcatEmbeddedServletContainerFactory factory = new TomcatEmbeddedServletContainerFactory(9000);
+    TomcatEmbeddedServletContainerFactory factory = new TomcatEmbeddedServletContainerFactory(8080);
     factory.setSessionTimeout(480, TimeUnit.MINUTES);
     return factory;
   }
