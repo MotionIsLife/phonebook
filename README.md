@@ -35,6 +35,7 @@ TODO:
     [Spring Data]: <http://daringfireball.net>
     [Spring JPA]: <http://daringfireball.net/projects/markdown/>
     [Hibernate]: <https://github.com/markdown-it/markdown-it>
+    [Spring kafka]: <https://spring.io/projects/spring-kafka>
     [MySQL]: <http://ace.ajax.org>
     [Apache ZooKeeper]: <https://zookeeper.apache.org/doc/r3.3.3/zookeeperStarted.html>
     [Apache Kafka]: <https://kafka.apache.org/quickstart>
