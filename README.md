@@ -14,18 +14,27 @@ Phonebook uses a number of projects to work properly:
 * [Spring Data] - Markdown parser done right. Fast and easy to extend.
 * [Spring JPA] - great UI boilerplate for modern web apps
 * [Hibernate] - evented I/O for the backend
+* [Spring kafka] -  project applies core Spring concepts to the development of Kafka-based messaging solutions.
+* [Apache Kafka] - is a distributed streaming platform.
+* [Apache ZooKeeper] - is an effort to develop and maintain an open-source server which enables highly reliable distributed coordination.
 * [MySQL] - fast node.js network app framework [@tjholowaychuk]
 
-   [Spring]: <https://spring.io>
-   [SpringBoot]: <https://docs.spring.io/spring-boot/docs/1.5.x/reference/html/>
-   [Spring Security]: <https://github.com/joemccann/dillinger.git>
-   [Spring Data]: <http://daringfireball.net>
-   [Spring JPA]: <http://daringfireball.net/projects/markdown/>
-   [Hibernate]: <https://github.com/markdown-it/markdown-it>
-   [MySQL]: <http://ace.ajax.org>
-
+ Manual:
+ 1. start [Zookeeper];
+ 2. start [Apache Kafka] server;
+ 3. run spring-boot app.
 
 TODO:
  - [x] inject Spring Data with MySql
  - [x] inject Spring Security
  - [ ] inject Kafka
+ 
+    [Spring]: <https://spring.io>
+    [SpringBoot]: <https://docs.spring.io/spring-boot/docs/1.5.x/reference/html/>
+    [Spring Security]: <https://github.com/joemccann/dillinger.git>
+    [Spring Data]: <http://daringfireball.net>
+    [Spring JPA]: <http://daringfireball.net/projects/markdown/>
+    [Hibernate]: <https://github.com/markdown-it/markdown-it>
+    [MySQL]: <http://ace.ajax.org>
+    [Zookeeper]: <https://zookeeper.apache.org/doc/r3.3.3/zookeeperStarted.html>
+    [Apache Kafka]: <https://kafka.apache.org/quickstart>
