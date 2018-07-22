@@ -27,7 +27,7 @@ Phonebook uses a number of projects to work properly:
 TODO:
  - [x] inject Spring Data with MySql
  - [x] inject Spring Security
- - [ ] inject Kafka
+ - [x] inject Kafka
  
     [Spring]: <https://spring.io>
     [SpringBoot]: <https://docs.spring.io/spring-boot/docs/1.5.x/reference/html/>
@@ -36,5 +36,5 @@ TODO:
     [Spring JPA]: <http://daringfireball.net/projects/markdown/>
     [Hibernate]: <https://github.com/markdown-it/markdown-it>
     [MySQL]: <http://ace.ajax.org>
-    [Zookeeper]: <https://zookeeper.apache.org/doc/r3.3.3/zookeeperStarted.html>
+    [Apache ZooKeeper]: <https://zookeeper.apache.org/doc/r3.3.3/zookeeperStarted.html>
     [Apache Kafka]: <https://kafka.apache.org/quickstart>
