@@ -20,7 +20,7 @@ Phonebook uses a number of projects to work properly:
 * [MySQL] - fast node.js network app framework [@tjholowaychuk]
 
  Manual:
- 1. start [Zookeeper];
+ 1. start [Apache ZooKeeper];
  2. start [Apache Kafka] server;
  3. run spring-boot app.
 
@@ -35,6 +35,7 @@ TODO:
     [Spring Data]: <http://daringfireball.net>
     [Spring JPA]: <http://daringfireball.net/projects/markdown/>
     [Hibernate]: <https://github.com/markdown-it/markdown-it>
+    [Spring kafka]: <https://spring.io/projects/spring-kafka>
     [MySQL]: <http://ace.ajax.org>
     [Apache ZooKeeper]: <https://zookeeper.apache.org/doc/r3.3.3/zookeeperStarted.html>
     [Apache Kafka]: <https://kafka.apache.org/quickstart>
